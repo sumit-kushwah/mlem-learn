@@ -1,0 +1,16 @@
+artifacts:
+  data:
+    hash: e47bd72d146c03ecfe08b4d8a4527d1e
+    size: 207
+    uri: prediction
+object_type: data
+reader:
+  data_type:
+    dtype: int64
+    shape:
+    - null
+    type: ndarray
+  type: numpy
+requirements:
+- module: numpy
+  version: 1.23.3
