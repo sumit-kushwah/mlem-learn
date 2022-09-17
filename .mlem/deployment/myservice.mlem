@@ -1,4 +1,4 @@
-app_name: example-mlem-get-started-app
+app_name: ksumit-mlem-example
 env_link:
   link_type: env
   object_type: link
@@ -8,4 +8,39 @@ model_link:
   object_type: link
   path: rf
 object_type: deployment
+state:
+  app:
+    meta_info:
+      acm: false
+      archived_at: null
+      build_stack:
+        id: fa15409e-a5da-4998-9954-0e865cb1a19f
+        name: container
+      buildpack_provided_description: null
+      created_at: '2022-09-17T11:59:42Z'
+      git_url: https://git.heroku.com/ksumit-mlem-example.git
+      id: 069f86b9-7bf5-4190-a683-89bbdc13dff5
+      internal_routing: null
+      maintenance: false
+      name: ksumit-mlem-example
+      organization: null
+      owner:
+        email: ksumitlearning@gmail.com
+        id: 71cdcf5d-fd56-489f-9b82-fa1686b12e05
+      region:
+        id: 59accabd-516d-4f0e-83e6-6e3757701145
+        name: us
+      released_at: '2022-09-17T11:59:43Z'
+      repo_size: null
+      slug_size: null
+      space: null
+      stack:
+        id: fa15409e-a5da-4998-9954-0e865cb1a19f
+        name: container
+      team: null
+      updated_at: '2022-09-17T11:59:43Z'
+      web_url: https://ksumit-mlem-example.herokuapp.com/
+    name: ksumit-mlem-example
+    web_url: https://ksumit-mlem-example.herokuapp.com/
+  type: heroku
 type: heroku
